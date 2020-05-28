@@ -32,6 +32,9 @@ abstract_target "ReactNative" do
   pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+
+  pod 'AnylineReact', path: '../node_modules/anyline-ocr-react-native-module/ios'
+
   # RN pods end
 
   # Libs

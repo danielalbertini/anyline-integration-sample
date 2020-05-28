@@ -10,6 +10,7 @@
   "dependencies": {
     "@react-native-community/async-storage": "^1.4.0",
     "@react-native-community/netinfo": "^3.2.1",
+    "anyline-ocr-react-native-module": "^20.0.0",
     "jsc-android": "245459.0.0",
     "react": "16.8.3",
     "react-native": "0.59.9",

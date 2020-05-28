@@ -35,6 +35,8 @@ import io.invertase.firebase.RNFirebasePackage;
 import io.invertase.firebase.messaging.RNFirebaseMessagingPackage;
 import io.invertase.firebase.notifications.RNFirebaseNotificationsPackage;
 
+import com.anyline.reactnative.AnylinePackage;
+
 public class MainApplication extends MendixReactApplication {
   @Override
   public boolean getUseDeveloperSupport() {
@@ -46,6 +48,7 @@ public class MainApplication extends MendixReactApplication {
     List<ReactPackage> packages = new ArrayList<>();
     packages.addAll(Arrays.asList(
             new MainReactPackage(),
+            new AnylinePackage(),
             new FastImageViewPackage(),
             new DarkModePackage(),
             new CodePush(getCodePushKey(), getApplicationContext(), BuildConfig.DEBUG),
